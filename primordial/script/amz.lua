@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/BIudnyHoIandan/MM2/refs/heads/main/stl.lua"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/AqUZaxKA"))()
 
 -- Load WindUI safely
 local success, WindUI = pcall(function()
