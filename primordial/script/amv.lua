@@ -1,4 +1,5 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BIudnyHoIandan/MM2/refs/heads/main/file.lua"))()
+
 -- Load WindUI safely
 local success, WindUI = pcall(function()
     print("Attempting to load WindUI...")
