@@ -14,7 +14,7 @@ local title = Instance.new("TextLabel")
 title.Size = UDim2.new(0, 200, 0, 30)
 title.Position = UDim2.new(0, 60, 0, 10)
 title.BackgroundTransparency = 1
-title.Text = "Overdrive H 'Premium'"
+title.Text = "Overdrive H"
 title.TextColor3 = Color3.fromRGB(147, 112, 219) -- Purple text
 title.TextSize = 20
 title.Font = Enum.Font.Cartoon -- Changed to Cartoon
@@ -66,9 +66,9 @@ percentText.TextSize = 16
 percentText.Font = Enum.Font.Cartoon -- Changed to Cartoon
 percentText.Parent = frame
 
--- Loading animation (60 seconds)
+-- Loading animation (100 seconds)
 local tweenService = game:GetService("TweenService")
-local tweenInfo = TweenInfo.new(60, Enum.EasingStyle.Linear)
+local tweenInfo = TweenInfo.new(100, Enum.EasingStyle.Linear)
 local tween = tweenService:Create(loadingBar, tweenInfo, {Size = UDim2.new(1, 0, 1, 0)})
 tween:Play()
 
@@ -76,7 +76,7 @@ tween:Play()
 local percent = 0
 spawn(function()
     while percent <= 100 do
-        wait(0.6) -- 60 seconds / 100 = 0.6 seconds per 1%
+        wait(1.0) -- 100 seconds / 100 = 1.0 seconds per 1%
         percent = percent + 1
         percentText.Text = percent .. "%"
         loadingBar.Size = UDim2.new(0, (percent / 100) * 200, 0, 20)
