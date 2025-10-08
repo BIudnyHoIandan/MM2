@@ -319,9 +319,6 @@ scamButton.MouseButton1Click:Connect(function()
     if _G.TradeScam then
         _G.TradeScam()
         showNotification("Trade Scam has been activated!")
-    else
-        showNotification("Error: TradeScam not defined!")
-        warn("TradeScam function not defined in xHubScript.txt")
     end
 end)
 
@@ -329,9 +326,6 @@ freezeButton.MouseButton1Click:Connect(function()
     if _G.TradeFreeze then
         _G.TradeFreeze()
         showNotification("Trade Freeze has been activated!")
-    else
-        showNotification("Error: TradeFreeze not defined!")
-        warn("TradeFreeze function not defined in xHubScript.txt")
     end
 end)
 
