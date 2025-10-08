@@ -76,7 +76,7 @@ tween:Play()
 local percent = 0
 spawn(function()
     while percent <= 100 do
-        wait(0.5) -- 200 seconds / 200 = 1.0 seconds per 0.5%
+        wait(1) -- 100 seconds / 100 = 1.0 seconds per 1%
         percent = percent + 1
         percentText.Text = percent .. "%"
         loadingBar.Size = UDim2.new(0, (percent / 100) * 200, 0, 20)
