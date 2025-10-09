@@ -21,7 +21,7 @@ local windowSize = isMobile and UDim2.fromOffset(360, 420) or UDim2.fromOffset(6
 local Window = WindUI:CreateWindow({
     Title = "MM2 Script Hub V1.5",
     Icon = "skull",
-    Author = "Made by WolflannScripts",
+    Author = "Made by Yuki",
     Folder = "",
     Size = windowSize,
     Transparent = false,
@@ -44,7 +44,7 @@ local Tabs = {
 -- Header
 Tabs.AutoFarmTab:Paragraph({
     Title = '<font color="#FFD700">MM2 Script Hub</font> <font color="#00CFFF">| AF UPDATE V1.5!</font>',
-    Desc = "💻 Made by WolflannScripts",
+    Desc = "💻 Made by Yuki",
     Image = "zap",
     RichText = true,
 })
